@@ -1,0 +1,654 @@
+body {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	background: #fff;
+}
+@font-face{
+	font-family: montserratBold;
+	src: url(../fonts/montserrat/Montserrat-Bold.ttf)
+}
+@font-face{
+	font-family: ralewayRegular;
+	src: url(../fonts/raleway/Raleway-Regular.ttf);
+}
+@font-face{
+	font-family: ralewayBold;
+	src: url(../fonts/raleway/Raleway-Bold.ttf);
+}
+@font-face{
+	font-family: montserratLight;
+	src: url(../fonts/montserrat/Montserrat-Light.ttf);
+}
+@font-face{
+	font-family: montserratRegular;
+	src: url(../fonts/montserrat/Montserrat-Regular.ttf);
+}
+body a,
+.slider-info a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+	text-decoration: none;
+	outline: none;
+	cursor:pointer !important;
+}
+button,.btn{
+	cursor:pointer !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+p {
+	margin: 0;
+	color: #333;
+	font-size: 1em;
+	line-height: 1.8;
+	font-family: ralewayRegular;
+}
+ul {
+	list-style-type: none;
+	margin: auto!important;
+	height: auto;
+	vertical-align: middle;
+}
+/* global */
+.img-sm{
+	width: 2rem;
+}
+.img-md{
+	width: 5rem;
+}
+.container{
+	max-width: 100%;
+}
+.containerBanner{
+	background-color: #00000094;
+	margin-top: -90vh;
+}
+.text-blue{
+	color: #17a2b8;
+}
+.text-blue-sky{
+	color: #3ee3e4;
+}
+.text-purple{
+	color:#d304a6
+}
+.section3{
+	margin-top: 5%;
+}
+/* .d-inline-flex{
+    display: inline-flex;
+} */
+/*///////// global */
+
+/* banner */
+	/* header */
+	ul.menu{
+		width: 85%;
+		float: right;
+		font-size: 0.9rem;
+	}
+	ul> li{
+		font-family: ralewayRegular;
+	}
+	body a:hover {
+		text-decoration: none;
+	}
+	body a:focus {
+		outline: none;
+		text-decoration: none;
+	}
+	.list-group-item {
+		background-color: transparent;
+	}
+	.modal-body p {
+		font-size: 15px;
+		color: #777;
+		line-height: 1.8em;
+		padding: 20px 0;
+	}
+	h4.modal-title {
+		font-size: 24px;
+		color: #3ee3e4;
+		font-weight: 600;
+		letter-spacing: 2px;
+	}
+	nav{
+		display: flex;
+		height: 5rem;
+		background: #000000d1;
+	}
+	.slider-bottom{
+		background: #0000008f;
+		display: flex;
+	}
+	nav a{
+		color: white;
+	}
+	.logo>h1, .logo img{
+		margin: auto 1rem!important;
+	}
+	.logo>h1>a{
+		font-family: montserratBold;
+		font-size: 1.5rem;
+	}
+	/*--///// header --*/
+.mnu{
+	height: 10vh;
+}
+.banner{
+	background-image: url(../imgs/homeOffice.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.banner-text{
+	padding: 12% 10%;
+    text-align: right;
+}
+.banner-text>div>div>h3{
+	font-family: montserratBold;
+	font-size: 2.5rem;
+	width: 60%;
+    float: right;
+}
+.banner-text>div>div>p{
+	display: none;
+}
+.contactanos-media>ul{
+	margin: 0!important;
+    padding: 0!important;
+}
+.contacta h5, .slider-bottom-right h5{
+	font-size: 1rem;
+	text-align: end;
+	margin: 0;
+}
+.contactanos-media img, .social-media img{
+	margin: 0.5rem 1rem;
+}
+/*////////// banner */
+/* seccion2 */
+
+.section2 p{
+	font-size: 0.8em;
+	font-family: ralewayRegular;
+	color: black;
+}
+.section2> div> h2, .section2> div> p{
+	margin: 1rem;
+}
+.section2>div{
+	padding: 0!important;
+	margin: auto;
+}
+/*///////// seccion2 */
+/* seccion3 */
+
+.section3{
+	margin-top: 5%;
+}
+.section3>div>div{
+	margin: 0!important;
+	padding: 0!important;
+}
+.section3>h1{
+	text-align: center;
+    background: #17a2b8;
+    color: white;
+	padding: 1.1rem;
+	margin: 2rem 5rem;
+}
+.section3>div>div>img{
+	object-fit: cover;
+    height: 300px;
+}
+.section3>div>div>.lectura img{
+	Clip-path: inset(100px 0px 300px 0px);
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    margin: -20% 0%;
+}
+.section3>div>.textSection3>h2, .section3>div>.textSection3>p{
+	margin: 1.5rem!important;
+}
+/* section4 */
+.section4{
+	margin: 0!important;
+    padding: 0!important;
+}
+.containerBox-1, .containerBox-2{
+	padding: 0;
+	width: 100%;
+	height: 30rem;
+	margin: 0!important;
+}
+.bgcolors{
+	display: inline-flex;
+	margin: 0!important;
+	padding: 0!important;
+	position: absolute;
+	z-index: -1;
+	height: -webkit-fill-available;
+}
+.bg-1{
+	background-color: #e84855;
+	height: fit-content;
+}
+.bg-2{
+	background-color: #17a2b8;
+	height: fit-content;
+}
+.contentSection4{
+	display: inline-flex;
+	margin: 2.5rem;
+}
+.contentSection4 img{
+	height: auto;
+    width: 35rem;
+    float: right;
+    margin-right: -5rem;
+    margin-top: 2rem;
+}
+.containerBox-1, .containerBox-2{
+	height: 37rem;
+}
+.textClub{
+	/* margin: 2rem 0rem 0rem; */
+	padding: 2rem 4rem;
+}
+.contentSection4 h2{
+	font-size: 2.5rem;
+    font-family: montserratBold;
+	padding: 0.5rem 2rem;
+}
+.clubConversacionP{
+	font-size: 2rem;
+    font-family: montserratBold;
+    padding: 0rem 2rem;
+}
+.textClubText{
+	padding: 3.5rem;
+	text-align: justify;
+	font-family: ralewayBold;
+}
+/* /////section4 */
+/* section5 */
+.section5{
+	background-attachment: fixed;
+	/* background-image: url(../imgs/typewriter.jpg); */
+	background-size: contain;
+	padding: 3rem;
+}
+.whyDream{
+	background: #00000069;
+    padding: 2rem;
+    width: 70%;
+	margin: auto;
+	margin-bottom: 2rem;
+	border-radius: 10px;
+}
+.whyDream h1{
+	font-family: montserratBold;
+}
+.opiniones{
+	font-size: 2rem;
+}
+.textWhy{
+	background: #00000069;
+	color: white;
+	font-style: italic;
+	border-radius: 8px;
+	padding: 1rem;
+	font-size: 0.9em;
+}
+.autorComentario{
+	color:#3ee3e4;
+	font-weight: bold;
+}
+/*/////////// section5 */
+/* section6 */
+.section6 h1{
+	margin: 2rem auto;
+	text-align: center;
+	font-family: montserratBold;
+}
+.boxDate{
+	background-color:#7ed0ff;
+    padding: 1.5rem;
+    text-align: center;
+	margin: 1rem;
+	color: white;
+	font-family: montserratBold;
+}
+.turnos{
+	font-size: 1.5rem;
+    margin: 1rem;
+	text-align: center;
+	font-family: montserratRegular;
+}
+.hrs{
+	margin: 1rem;
+	text-align: center;
+	font-family: montserratRegular;
+}
+.costos h4{
+	font-family: montserratBold;
+	text-align: end;
+	margin: 1rem;
+}
+.costos p{
+	font-family: montserratRegular;
+	text-align: end;
+}
+/* //////section6 */
+/* section7 */
+.section7{
+	/* background-image: url(../imgs/computer.jpg); */
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 3.5rem;
+}
+.bg-blacktrans{
+	background-color: rgba(0, 0, 0, 0.459);
+}
+.section7 h3{
+	text-align: center;
+    margin: 2rem auto;
+	font-size: 2.5rem;
+	color: white;
+	font-family: montserratBold;
+}
+.section7 p{
+	padding: 3rem;
+	font-size: 1.1rem;
+	text-align: center;
+	color: white;
+	font-family: montserratRegular;
+}
+/* /////section7 */
+/* section8 */
+.section8{
+	padding: 2rem;
+}
+.section8 h2{
+	font-size: 2.5rem;
+}
+.pagoTarjeta img{
+	width: 6rem;
+	margin: 1rem;
+	height: 6rem;
+}
+.pagoTarjeta p{
+	font-size: 1.8rem;
+	margin: auto;
+}
+
+/* ////section8 */
+footer{
+	background:black;
+	padding: 2rem;
+}
+footer p{
+	color: rgb(197, 196, 196);
+	font-size: 0.8rem;
+}
+img.logoGonvill {
+	width: 8rem;;
+}
+.logoGonvill{
+	float: right;
+    margin: 1rem;
+}
+/* RESPONSIVE */
+ @media (max-width:600px){
+	nav{
+		height: 4rem;
+	}
+	ul.menu li{
+	display: none;
+	}
+	.slider-bottom .img-sm{
+		width: 1.2rem;
+	}
+	.slider-bottom h5{
+		font-size: 0.9rem;
+	}
+	.slider-bottom h4{
+		font-size: 1.1rem;
+	}
+	.logo>h1{
+	margin: auto 0rem!important;
+	}
+	.logo>h1>a{
+	font-size: 1.2rem;
+	}
+	.banner{
+	background-size: cover;
+	}
+	.banner-text>div>div>h3{
+		font-size: 1.3rem;
+	}
+	.banner-text{
+		padding: 30% 3%;
+	}
+	.section3>h1{
+		padding: 0rem;
+    	margin: 1rem 0rem;
+    	font-size: 2rem;
+	}
+	.section3>div>.textSection3>h2, .section3>div>.textSection3>p{
+		margin: 0.5rem!important;
+	}
+	.section3>div>.textSection3>h2{
+		font-size: 1rem;
+	}
+	.section3>div>.textSection3>p{
+		font-size: 0.6rem;
+	}
+	.section3>div>div>img{
+		height: 250px;
+	}
+	.contentSection4 img{
+		width: 16rem;
+		float: none;
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.containerBox-1, .containerBox-2 {
+		height: 47rem;
+	}
+	.textClub{
+		padding: 1rem;
+	}
+	.contentSection4{
+		margin: 1rem;
+	}
+	.contentSection4 h2{
+		font-size: 1.2rem;
+	}
+	.clubConversacionP{
+		font-size: 1rem;
+	}
+	.textClubText{
+		padding: 0.6rem;
+		text-align: center;
+		font-size: 0.8em;
+	}
+	.section5{
+		padding: 1rem;
+		background-size: cover;
+	}
+	.section5 .m-3{
+		margin: 0!important;
+	}
+	.section5 .col-12, .section5 .col-4{
+		padding: 0!important;
+	}
+	.section5 p{
+		font-size: 0.6rem;
+	}
+	.textWhy{
+		padding: 0.5rem;
+		margin: 0.3rem;
+	}
+	.whyDream{
+		padding: 1rem;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+	.whyDream h1{
+		font-size: 1.2rem;
+	}
+	.opiniones{
+		font-size: 1rem;
+	}
+	.section6 h1{
+		font-size: 1.6rem;
+	}
+	.section6 .col-4{
+		padding: 0.2rem;
+	}
+	.boxDate{
+		margin: 0;
+		padding: 2rem;
+	}
+	.turnos{
+		font-size: 1rem;
+		margin: 0rem;
+	}
+	.section7{
+		padding: 0.5rem;
+		overflow-x: hidden;
+	}
+	.section7 h3{
+		margin: 1rem auto;
+    	font-size: 1.5rem;
+	}
+	.section7 p{
+		padding: 0.5rem;
+    	font-size: 0.7rem;
+	}
+	.section8 h2{
+		font-size: 1.8rem;
+	}
+	img.cartera{
+		display: none;
+	}
+	.pagoTarjeta img {
+		width: 4rem;
+		margin: auto;
+		height: 4rem;
+	}
+	.pagoTarjeta p{
+		font-size: 1rem;
+	}
+	footer{
+		padding: 1rem;
+	}
+	footer p{
+		font-size: 0.5rem;
+	}
+	footer .img-sm{
+		width: 1rem;
+	}
+	img.logoGonvill {
+		width: 4rem;
+	}
+	.logoGonvill{
+		margin: 0.5rem
+	}
+ }
+ @media(min-width:601px) and (max-width:800px){
+	.banner{
+		height: auto;
+	}
+	.logo>h1>a{
+		font-size: 1rem;
+	}
+	.banner-text{
+		padding: 12% 10%;
+	}
+	.section2> div> h2{
+		font-size: 1.2rem;
+		margin: 0rem 1rem;
+	}
+	.section2> div> p{
+		margin: 0rem 1rem;
+    	font-size: 0.7em;
+	}
+	.textClub{
+		padding: 2rem 1rem;
+	}
+	.textClubText{
+		padding: 2.4rem;
+		font-size: 0.8rem;
+	}
+	.clubConversacionP{
+		font-size: 1.3rem;
+	}
+	.contentSection4 h2{
+		font-size: 2rem;
+		padding: 0.7rem 2rem;
+	}
+	img.cartera{
+		object-fit: none;
+		width: 300px;
+		height: 320px;
+		overflow: hidden;
+	}
+	.pagoTarjeta{
+		margin: auto;
+	}
+	.pagoTarjeta p{
+		font-size: 1rem;
+		margin: auto;
+		padding: 0.5rem;
+	}
+	.pagoTarjeta img{
+		width: 5rem;
+		height: 5rem;
+	}
+ }
+ @media(min-width:801px) and (max-width:1025px){
+	.textClub{
+		padding: 2rem 1rem;
+	}
+	.textClubText{
+		padding: 1rem;
+    	font-size: 0.9rem;
+	}
+	.clubConversacionP{
+		font-size: 1.8rem;
+		padding: 0.9rem 2rem;
+	}
+	img.cartera{
+		object-fit: none;
+		width: 400px;
+		height: 300px;
+		overflow: hidden;
+	}
+	.pagoTarjeta{
+		margin: auto;
+	}
+	.pagoTarjeta p{
+		font-size: 1rem;
+		margin: auto;
+		padding: 0.5rem;
+	}
+	.pagoTarjeta img{
+		width: 5rem;
+		height: 5rem;
+	}
+ }
